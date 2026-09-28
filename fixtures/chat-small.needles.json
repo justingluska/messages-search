@@ -1,0 +1,497 @@
+{
+ "generator": "scripts/make-fixture.py",
+ "seed": 20190101,
+ "me": {
+  "phone": "+12125550100",
+  "email": "alex.parker@icloud.example"
+ },
+ "contacts": {
+  "+12125550101": "Maya Chen",
+  "maya.chen@icloud.example": "Maya Chen",
+  "+15125550102": "Leo Alvarez",
+  "+14155550103": "Priya Shah",
+  "priya.shah@mail.example": "Priya Shah",
+  "+13125550104": "Sam Okafor",
+  "+16175550105": "Nora Lindqvist",
+  "+13055550106": "Diego Ramírez",
+  "+15035550107": "Jonah Weiss",
+  "+12065550108": "Ava Thompson",
+  "+19145550109": "Linda Parker",
+  "linda.parker@mail.example": "Linda Parker",
+  "+19145550110": "Tom Parker",
+  "+17185550111": "Ben Parker",
+  "+13235550112": "Grace Kim",
+  "+17735550113": "Omar Haddad",
+  "+16465550114": "Tessa Novak",
+  "+12015550115": "Ray Castillo"
+ },
+ "needles": [
+  {
+   "chat": "lake",
+   "queries": [
+    "what's the code to get in the gate",
+    "lake house gate code",
+    "wifi password at the lake house"
+   ],
+   "messages": [
+    {
+     "rowid": 332,
+     "guid": "FB55A42B-31B6-4D0E-DF54-36AC01375674",
+     "text": "ok logistics for the lake house this weekend"
+    },
+    {
+     "rowid": 333,
+     "guid": "DD04749C-8D2E-4AB2-E256-AD40AE3AC063",
+     "text": "gate code is 4471# (keypad is on the left post). wifi is LakeHouse_Guest, password loons2023"
+    },
+    {
+     "rowid": 334,
+     "guid": "8610BDE8-DBA0-4057-1284-83596844B8E9",
+     "text": "saving this"
+    },
+    {
+     "rowid": 335,
+     "guid": "40B61EE6-8A29-4238-B768-6A18EC9A98FC",
+     "text": "what time is everyone getting there"
+    },
+    {
+     "rowid": 336,
+     "guid": "F878C656-E319-4E09-E73A-3FCDEDA10911",
+     "text": "we'll be there by 4 friday"
+    }
+   ]
+  },
+  {
+   "chat": "leo",
+   "queries": [
+    "restaurant recommendation in Austin",
+    "where should I eat in Austin",
+    "brisket tacos place"
+   ],
+   "messages": [
+    {
+     "rowid": 418,
+     "guid": "9401E54F-0D06-4A5F-136B-C809D0154071",
+     "text": "heading to Austin next month for a conference, any food recs?"
+    },
+    {
+     "rowid": 419,
+     "guid": "30EA10CC-D849-484B-E1F0-B9D54CDD447E",
+     "text": "if you're in Austin you HAVE to go to Casa Lumbre on East Cesar Chavez. get the brisket tacos and the elote"
+    },
+    {
+     "rowid": 420,
+     "guid": "EA73286D-77D2-4AE3-C39A-45C76FDBB39F",
+     "text": "and get breakfast tacos at Pepper & Pine, go early the line gets crazy"
+    },
+    {
+     "rowid": 421,
+     "guid": "A5E4FCA0-2013-4FD2-6AC4-65BC07417448",
+     "text": "adding both, thank you!"
+    }
+   ]
+  },
+  {
+   "chat": "priya",
+   "queries": [
+    "when is Priya's wedding",
+    "wedding hotel room block code",
+    "what hotel for the wedding"
+   ],
+   "messages": [
+    {
+     "rowid": 497,
+     "guid": "1B426688-5296-4616-63D8-16C92A8464A5",
+     "text": "SAVE THE DATE!! Dev and I are getting married June 13, 2026 in Santa Barbara 💍"
+    },
+    {
+     "rowid": 498,
+     "guid": "13895C89-8F4E-4F8B-0161-EB5398027474",
+     "text": "AHHH congratulations!!! 😭❤️"
+    },
+    {
+     "rowid": 499,
+     "guid": "10FC8A19-C875-4E14-19E2-55DCB818B7DB",
+     "text": "room block is at the Hotel Marisol, book by May 1 with code SHAHRAO26"
+    },
+    {
+     "rowid": 500,
+     "guid": "5EDA4E1A-5B64-4969-45E0-EB9A3D0414BE",
+     "text": "booking tonight"
+    }
+   ]
+  },
+  {
+   "chat": "mom",
+   "queries": [
+    "what flight is mom on",
+    "when does mom land",
+    "UA 1423"
+   ],
+   "messages": [
+    {
+     "rowid": 452,
+     "guid": "832DD2B1-E1DF-4DAA-2EA5-78C1D3BFCF1F",
+     "text": "I land Thursday at 6:40pm, United 1423 from Denver"
+    },
+    {
+     "rowid": 453,
+     "guid": "0C1327C9-3B54-40E6-96FD-E1BB09688C7E",
+     "text": "I'll pick you up at arrivals"
+    },
+    {
+     "rowid": 454,
+     "guid": "59C90B6C-A0E8-4009-EFD1-83B8C04C617C",
+     "text": "Thank you sweetheart. I'll have one bag"
+    }
+   ]
+  },
+  {
+   "chat": "ben",
+   "queries": [
+    "what's Ben's garage code",
+    "which flight am I taking to LGA"
+   ],
+   "messages": [
+    {
+     "rowid": 503,
+     "guid": "7A01F1A0-140C-4446-5CEB-C5A25DA64EB3",
+     "text": "my flight is DL 2210, gets into LGA at 11:05 tomorrow"
+    },
+    {
+     "rowid": 504,
+     "guid": "31C37583-F5A0-420C-4CAD-57CA96CF2DE7",
+     "text": "cool i'll grab you, text me when you land"
+    },
+    {
+     "rowid": 505,
+     "guid": "777D6F00-DE44-4FC0-6F36-4802AD254702",
+     "text": "garage code at my building is 8812 btw if I'm not down yet"
+    }
+   ]
+  },
+  {
+   "chat": "jonah",
+   "queries": [
+    "where did Jonah move",
+    "Jonah's new address",
+    "address in Portland"
+   ],
+   "messages": [
+    {
+     "rowid": 289,
+     "guid": "D5AFEB56-9938-49B7-6472-4A05952CE9D8",
+     "text": "we moved! new place is 1180 Alder Street, Apt 3B, Portland OR 97205"
+    },
+    {
+     "rowid": 290,
+     "guid": "F4613C9B-483B-465F-29D7-3A0DC2899F76",
+     "text": "congrats!! sending a housewarming thing"
+    },
+    {
+     "rowid": 292,
+     "guid": "E67EACC1-5AFC-4B6B-584B-9DFF55C5A5DF",
+     "text": "you're the best"
+    }
+   ]
+  },
+  {
+   "chat": "family",
+   "queries": [
+    "when is grandpa's birthday",
+    "birthday card reminder"
+   ],
+   "messages": [
+    {
+     "rowid": 414,
+     "guid": "DD754605-F85C-48E7-D0F5-EC44E69F3C99",
+     "text": "Reminder: Grandpa's birthday is March 9th. Card is on the counter, everyone sign it"
+    },
+    {
+     "rowid": 415,
+     "guid": "8EC53827-EFAD-4CFE-7531-71215427E0A6",
+     "text": "Got it"
+    },
+    {
+     "rowid": 416,
+     "guid": "EEA85BA9-410C-4FDE-A077-431A3F5E2AF8",
+     "text": "will sign when I'm over sunday"
+    }
+   ]
+  },
+  {
+   "chat": "ava",
+   "queries": [
+    "what's Ava's parking spot number",
+    "where can I park"
+   ],
+   "messages": [
+    {
+     "rowid": 476,
+     "guid": "07A80058-C309-4244-F3C1-19AF02B33C17",
+     "text": "you can park in my spot while I'm away, it's #214 on level P2"
+    },
+    {
+     "rowid": 477,
+     "guid": "DDD0E713-6841-4FFD-42C8-DA85B6F0B1B2",
+     "text": "amazing thank you"
+    }
+   ]
+  },
+  {
+   "chat": "books",
+   "queries": [
+    "what's the next book club book",
+    "book club meeting"
+   ],
+   "messages": [
+    {
+     "rowid": 458,
+     "guid": "869A8090-7936-4F66-FD59-6BE531D00EE3",
+     "text": "next pick: The Glass Orchard https://books.example/the-glass-orchard"
+    },
+    {
+     "rowid": 459,
+     "guid": "3CEFBEC7-AED1-426B-470B-CC2D700B7CD3",
+     "text": "ooh I've heard good things"
+    },
+    {
+     "rowid": 461,
+     "guid": "2055733A-EDC1-4BBF-FF5C-EE0A81F3AB4D",
+     "text": "meeting Feb 9 at mine?"
+    }
+   ]
+  },
+  {
+   "chat": "sam",
+   "queries": [
+    "how much do I owe Sam for tickets",
+    "concert tickets money"
+   ],
+   "messages": [
+    {
+     "rowid": 301,
+     "guid": "8F436988-211E-4C7F-76D6-2849F9BDD218",
+     "text": "venmo me $42.50 for the concert tickets when you get a sec"
+    },
+    {
+     "rowid": 302,
+     "guid": "9F3C9EA9-6884-4A32-FF75-BB341C2CFA6B",
+     "text": "sent!"
+    }
+   ]
+  },
+  {
+   "chat": "diego",
+   "queries": [
+    "grandma's birthday party",
+    "fiesta de cumpleaños de la abuela",
+    "what should I bring to the party"
+   ],
+   "messages": [
+    {
+     "rowid": 423,
+     "guid": "860BE3D4-E113-4C7F-0255-C7EB4BE5ECB1",
+     "text": "la fiesta de cumpleaños de la abuela es el sábado 11 a las 7, en su casa en Calle Olmo 45"
+    },
+    {
+     "rowid": 424,
+     "guid": "C808A790-F41D-49AC-C84B-DC59084D90B2",
+     "text": "¡ahí estaré! ¿llevo algo?"
+    },
+    {
+     "rowid": 425,
+     "guid": "FCE920E0-72B0-4578-9B83-535818EBBFE9",
+     "text": "trae el flan, a ella le encanta"
+    }
+   ]
+  },
+  {
+   "chat": "grace",
+   "queries": [
+    "when is the vet appointment",
+    "dog doctor appointment"
+   ],
+   "messages": [
+    {
+     "rowid": 308,
+     "guid": "C75A120D-5711-4E4B-BFA8-02DC1AC14359",
+     "text": "Biscuit's vet appointment is Tuesday at 9:15 at Riverside Animal Clinic, can you drive us?"
+    },
+    {
+     "rowid": 309,
+     "guid": "FE32F242-9D89-4448-E7B0-CBDB0E56E5F8",
+     "text": "yes! I'll pick you up at 8:50"
+    }
+   ]
+  },
+  {
+   "chat": "ray",
+   "queries": [
+    "when is the plumber coming",
+    "kitchen sink repair"
+   ],
+   "messages": [
+    {
+     "rowid": 384,
+     "guid": "EE279CC1-1BDE-4390-A2B9-4F7DA40C94D0",
+     "text": "Hi, this is Ray. The plumber will come by Wednesday between 10 and 12 to fix the kitchen sink."
+    },
+    {
+     "rowid": 385,
+     "guid": "C8FB40BA-1382-4E7C-E88C-6C5AA02AFD2A",
+     "text": "Thanks Ray, I'll be home"
+    }
+   ]
+  },
+  {
+   "chat": "maya",
+   "queries": [
+    "Maya's work phone number"
+   ],
+   "messages": [
+    {
+     "rowid": 205,
+     "guid": "39610D09-D173-4C7A-3927-3CFBFF77D0C7",
+     "text": "my new number at work is 212-555-0199 if you ever need it"
+    },
+    {
+     "rowid": 206,
+     "guid": "1E9A6D36-97EC-43B4-D823-3E9EF672BDB2",
+     "text": "saved"
+    }
+   ]
+  }
+ ],
+ "chats": {
+  "maya": {
+   "name": null,
+   "members": [
+    "Maya Chen"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "mom": {
+   "name": null,
+   "members": [
+    "Linda Parker"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "leo": {
+   "name": null,
+   "members": [
+    "Leo Alvarez"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "ben": {
+   "name": null,
+   "members": [
+    "Ben Parker"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "priya": {
+   "name": null,
+   "members": [
+    "Priya Shah"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "sam": {
+   "name": null,
+   "members": [
+    "Sam Okafor"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "nora": {
+   "name": null,
+   "members": [
+    "Nora Lindqvist"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "diego": {
+   "name": null,
+   "members": [
+    "Diego Ramírez"
+   ],
+   "service": "iMessage",
+   "language": "es"
+  },
+  "jonah": {
+   "name": null,
+   "members": [
+    "Jonah Weiss"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "ava": {
+   "name": null,
+   "members": [
+    "Ava Thompson"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "grace": {
+   "name": null,
+   "members": [
+    "Grace Kim"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "ray": {
+   "name": null,
+   "members": [
+    "Ray Castillo"
+   ],
+   "service": "SMS",
+   "language": "en"
+  },
+  "lake": {
+   "name": "Lake House 🏠",
+   "members": [
+    "Maya Chen",
+    "Leo Alvarez",
+    "Ben Parker",
+    "Grace Kim",
+    "Omar Haddad"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "family": {
+   "name": "",
+   "members": [
+    "Linda Parker",
+    "Tom Parker",
+    "Ben Parker"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  },
+  "books": {
+   "name": "Book Club 📚",
+   "members": [
+    "Nora Lindqvist",
+    "Tessa Novak",
+    "Priya Shah",
+    "Ava Thompson"
+   ],
+   "service": "iMessage",
+   "language": "en"
+  }
+ }
+}
