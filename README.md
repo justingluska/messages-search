@@ -12,6 +12,8 @@ Fast, private search for your Messages history on the Mac. Find any text by the 
 
 <sub>Screenshots use a generated history of fictional people.</sub>
 
+**[Download for Mac](https://github.com/justingluska/messages-search/releases/latest)** · Apple Silicon · free and open source
+
 > Not affiliated with or endorsed by Apple. "Messages" and "iMessage" are trademarks of Apple Inc.
 
 ## What it does
@@ -28,7 +30,7 @@ Fast, private search for your Messages history on the Mac. Find any text by the 
 
 Requires an Apple Silicon Mac. Built and tested on macOS 26 Tahoe.
 
-1. Build it (below) or download a release.
+1. **[Download the latest release](https://github.com/justingluska/messages-search/releases/latest)** (`.dmg`, signed and notarized by Apple), open it and drag **Messages Search** to Applications. Or build it yourself (below).
 2. Open **Messages Search** and click **Open System Settings**.
 3. Turn on **Messages Search** under Privacy & Security → **Full Disk Access**, then choose **Quit & Reopen**. macOS keeps your Messages history behind this permission; the app can't read it otherwise.
 4. Allow **Contacts** when asked, so results show names and photos instead of numbers.
