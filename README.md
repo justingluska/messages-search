@@ -91,6 +91,10 @@ The `ms` CLI indexes, searches and benchmarks from the terminal (`cargo run -p m
 - The default model is English. `multilingual-e5-small` is available in code but not yet exposed in the app.
 - Nicknames like "Mom" aren't mapped to contacts yet.
 
+## Author and support
+
+Made by **Justin Gluska** ([justingluska.com](https://www.justingluska.com)). Questions, feedback or support: [@gluska on X](https://x.com/gluska). Bugs and feature requests: [GitHub issues](https://github.com/justingluska/messages-search/issues).
+
 ## License
 
 [GPL-3.0-or-later](LICENSE). It builds on [imessage-database](https://github.com/ReagentX/imessage-exporter) (GPL-3.0) and other open-source projects listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
