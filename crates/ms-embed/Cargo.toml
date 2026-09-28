@@ -1,0 +1,18 @@
+[package]
+name = "ms-embed"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+ms-core.workspace = true
+# ONNX Runtime is fetched as a prebuilt static library at build time
+# (ort/download-binaries) and linked into the binary; model files come from
+# Hugging Face on first use (hf-hub). native-tls = macOS Security.framework.
+fastembed = { version = "7.1", default-features = false, features = ["ort-download-binaries-native-tls", "hf-hub-native-tls"] }
+# Same version/features fastembed already pulls in; used directly for a pinned
+# revision, an exact cache dir and byte-level download progress.
+hf-hub = { version = "0.5", default-features = false, features = ["ureq", "native-tls"] }
+thiserror.workspace = true
+sha2 = "0.10"

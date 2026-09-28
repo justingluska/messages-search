@@ -1,0 +1,22 @@
+[package]
+name = "ms-source"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+ms-core.workspace = true
+rusqlite.workspace = true
+thiserror.workspace = true
+imessage-database = "=4.3.0"
+notify = { version = "8", default-features = false, features = ["macos_fsevent"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+block2 = "0.6"
+objc2-foundation = { version = "0.3", default-features = false, features = ["std", "NSString", "NSArray", "NSError", "NSObject", "NSData"] }
+objc2-contacts = { version = "0.3", default-features = false, features = ["std", "block2", "CNContactStore", "CNContact", "CNContactFetchRequest", "CNLabeledValue", "CNPhoneNumber", "CNContactFormatter", "CNFetchRequest"] }
+
+[dev-dependencies]
+rusqlite.workspace = true

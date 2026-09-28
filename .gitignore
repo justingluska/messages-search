@@ -1,0 +1,15 @@
+target/
+node_modules/
+dist/
+/fixtures/*.db
+/fixtures/*.db-*
+*.index.db
+.DS_Store
+# Never commit an index or model cache: an index built from a real
+# chat.db contains every message.
+*.db
+*.db-wal
+*.db-shm
+/models/
+.fastembed_cache/
+/apps/desktop/src-tauri/gen/

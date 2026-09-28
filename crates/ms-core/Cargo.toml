@@ -1,0 +1,14 @@
+[package]
+name = "ms-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+
+[dependencies]
+rusqlite.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+sqlite-vec = "0.1.9"
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
