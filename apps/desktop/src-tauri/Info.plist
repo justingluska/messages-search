@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Without a usage string, macOS refuses Contacts access without asking. -->
+	<key>NSContactsUsageDescription</key>
+	<string>Messages Search shows your contacts' names and photos next to messages instead of phone numbers. Contacts stay on this Mac.</string>
+</dict>
+</plist>

@@ -1,0 +1,46 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Main window: the app's own commands, event listening, window dragging for the overlay title bar, and opening web links from messages in the default browser.",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:app:default",
+    "core:event:default",
+    "core:window:default",
+    "core:window:allow-start-dragging",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        {
+          "url": "https://*"
+        },
+        {
+          "url": "http://*"
+        }
+      ]
+    },
+    "allow-status",
+    "allow-search",
+    "allow-messages-around",
+    "allow-messages-page",
+    "allow-get-chat",
+    "allow-list-chats",
+    "allow-open-in-messages",
+    "allow-open-full-disk-access-settings",
+    "allow-reveal-attachment",
+    "allow-reindex",
+    "allow-open-contacts-settings",
+    "allow-reveal-index",
+    "allow-app-version",
+    "allow-insights",
+    "allow-storage-summary",
+    "allow-list-attachments",
+    "allow-open-attachment",
+    "allow-save-attachment",
+    "allow-copy-attachment",
+    "allow-trash-attachments",
+    "allow-open-storage-settings"
+  ]
+}

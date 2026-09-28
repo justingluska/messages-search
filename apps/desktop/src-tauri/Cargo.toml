@@ -1,0 +1,47 @@
+[package]
+name = "messages-search-desktop"
+description = "Messages Search: fast, local, read-only search over your Messages history"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+default-run = "messages-search-desktop"
+
+[lib]
+name = "messages_search_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[[bin]]
+name = "messages-search-desktop"
+path = "src/main.rs"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+# protocol-asset: attachment thumbnails via convertFileSrc, scoped in
+# tauri.conf.json to ~/Library/Messages/Attachments/** only.
+# Held at 2.11 to match @tauri-apps/api (same 7-day npm release-age rule).
+tauri = { version = "~2.11", features = ["protocol-asset"] }
+# Links inside messages open in the default browser (JS: openUrl). The
+# capability scopes it to http(s) URLs only (capabilities/default.json).
+# Held at 2.5 to match @tauri-apps/plugin-opener: npm here only installs
+# releases older than 7 days, and 2.6 is newer.
+tauri-plugin-opener = "~2.5"
+ms-core.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+ms-source.workspace = true
+ms-embed.workspace = true
+ms-engine.workspace = true
+# Local UTC offset for dates (already in the tree via imessage-database).
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+# A second launch focuses the running app (one indexer per index).
+tauri-plugin-single-instance = "2"
+
+# Attachment actions (src/files.rs): Move to Trash via NSFileManager (restorable)
+# and Copy via NSPasteboard.
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+objc2-foundation = { version = "0.3", default-features = false, features = ["std", "NSString", "NSURL", "NSArray", "NSError", "NSFileManager", "NSObject"] }
+objc2-app-kit = { version = "0.3", default-features = false, features = ["std", "NSPasteboard", "NSWorkspace"] }

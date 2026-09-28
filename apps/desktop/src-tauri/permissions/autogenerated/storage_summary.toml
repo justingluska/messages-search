@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-storage-summary"
+description = "Enables the storage_summary command without any pre-configured scope."
+commands.allow = ["storage_summary"]
+
+[[permission]]
+identifier = "deny-storage-summary"
+description = "Denies the storage_summary command without any pre-configured scope."
+commands.deny = ["storage_summary"]

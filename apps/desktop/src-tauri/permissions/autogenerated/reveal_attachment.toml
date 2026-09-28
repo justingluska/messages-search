@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-reveal-attachment"
+description = "Enables the reveal_attachment command without any pre-configured scope."
+commands.allow = ["reveal_attachment"]
+
+[[permission]]
+identifier = "deny-reveal-attachment"
+description = "Denies the reveal_attachment command without any pre-configured scope."
+commands.deny = ["reveal_attachment"]
