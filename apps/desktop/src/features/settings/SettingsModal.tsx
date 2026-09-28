@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Modal, Row, Section } from "../../components/Modal";
-import { api, asCommandError } from "../../lib/api";
+import { api, asCommandError, openLink } from "../../lib/api";
 import { formatBytes, formatCount } from "../../lib/format";
 import { HIGHLIGHT_STYLES, setHighlightStyle, useHighlightStyle } from "../../lib/prefs";
 import type { AppStatus, ContactsAccess } from "../../lib/types";
@@ -140,6 +140,16 @@ export function SettingsModal({ initial, onClose, onHelp }: { initial: AppStatus
 
       <Section title="About">
         <Row label="Messages Search">{version ? `Version ${version}` : ""}</Row>
+        <Row label="Made by Justin Gluska" detail="Questions, feedback or support">
+          <button className="btn" onClick={() => openLink("https://x.com/gluska")}>
+            @gluska on X
+          </button>
+        </Row>
+        <Row label="Source code" detail="Report bugs and request features on GitHub">
+          <button className="btn" onClick={() => openLink("https://github.com/justingluska/messages-search")}>
+            GitHub
+          </button>
+        </Row>
         <Row label="License">Open source, GPL-3.0</Row>
         <Row label="Privacy" detail="Reads your history read-only. Nothing leaves this Mac." />
         <Row label="Keyboard shortcuts">
